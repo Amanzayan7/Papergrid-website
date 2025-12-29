@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.shipping {
+   
+    background-color: black ;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;    
+}
+#Home {
+    text-decoration: underline;
+}
+.shipping p{
+    display: flex;
+    text-align: center;
+    color: white;
+    border-bottom:0.1px solid grey;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+
+}
+nav {
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+nav .menu {
+    display: flex;
+    align-items: center;              
+    justify-content: space-between;   
+    padding: 25px 55px;
+}
+.menu .logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+    
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+    margin-right: auto;
+
+}
+.menu ul li a {
+    margin-left: 20px;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.notebooks {
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ 
+}
+.images1,.images2,.images3{
+    display: flex;
+}
+
+img{
+    margin-top: 35px;
+    height: auto;
+    width: 360px;
+    justify-content:center;
+    margin-right: 40px;
+    margin-bottom: -20px;
+}
+.menu ul li a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+    
+}
+.icons i:hover{
+    transform: scale(1.1);
+}
+.founder {
+    display: flex;
+    align-items: center;         
+    gap: 80px;
+    margin: 100px 130px;
+}
+
+.founder-image img {
+    width: 420px;
+    height: auto;
+}
+
+.founder-text h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.founder-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.founder-text button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.contact {
+    background-color: black;
+    color: white;
+    
+}
+.contact p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    color: rgb(196, 196, 196);
+    font-size: large;
+}
+.insta-logo {
+  scale: calc(1.4);
+}
+.contact p:hover{
+    color: white;
+}
+.copyright ul {
+    background-color: black;
+    color: rgb(196, 196, 196);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    padding: 33px;
+    border-top: 0.1px solid grey;
+}
